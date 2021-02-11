@@ -33,7 +33,7 @@ const inquirer = require("inquirer");
 
     },
     {
-        type: "input",
+        type: "checkbox",
         name: "license",
         message: "Please select what type of license you would like for this project from the choices below:",
         choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
@@ -72,7 +72,7 @@ formQs().then(answers => console.log(answers));
 
 // ];
 
-/*___________________________________________ THIS FUNCTION WRITES THE MARKDOWN FILE ______________________________________________*/
+/*_____________________________________________ THIS FUNCTION WRITES THE MARKDOWN FILE ______________________________________________*/
     function writeToFile(fileName, data) {
         return fs.writeFileSync(path.join(process.cwd(), fileName),data);
     }
@@ -80,7 +80,7 @@ formQs().then(answers => console.log(answers));
 
 
 
-//  /*________________________________ THIS FUNCTION LOGS THE USER INPUT AND CREATES THE README ____________________________*/   
+//  /*________________________________ THIS FUNCTION LOGS THE USER INPUT AND CREATES THE README ____________________________________*/   
 //     function init() {
 //         inquirer.prompt(formQs)
 //         .then((inquirerResponses) => {
