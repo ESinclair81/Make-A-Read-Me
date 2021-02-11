@@ -1,0 +1,22 @@
+{
+  "name": "make-a-read-me",
+  "version": "1.0.0",
+  "description": "This app generates a ReadMe in Markdown format from the command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ESinclair81/Make-A-Read-Me.git"
+  },
+  "author": "Eon Sinclair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ESinclair81/Make-A-Read-Me/issues"
+  },
+  "homepage": "https://github.com/ESinclair81/Make-A-Read-Me#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
