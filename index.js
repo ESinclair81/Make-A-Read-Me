@@ -1,11 +1,13 @@
 const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
-const createMarkdown= require("./utilities/createMarkdown");
+// const createMarkdown= require("./utilities/createMarkdown");
 
 
 /*______________________________________ THESE ARE THE INQUIRER PROMPTS FOR USER INPUT _________________________________________*/
-const formQs = [
+ // const formQs = [
+    const formQs = () => {
+        return inquirer.prompt([
     {
         type: "input",
         name: "github",
@@ -63,11 +65,28 @@ const formQs = [
         message: "What should the user know about contributing to this repo?",
 
     }
-];
+    ]);
+};
+
+formQs().then(answers => console.log(answers));
+
+// ];
 
 /*___________________________________________ THIS FUNCTION WRITES THE MARKDOWN FILE ______________________________________________*/
     function writeToFile(fileName, data) {
         return fs.writeFileSync(path.join(process.cwd(), fileName),data);
     }
 
-    init();
+
+
+
+//  /*________________________________ THIS FUNCTION LOGS THE USER INPUT AND CREATES THE README ____________________________*/   
+//     function init() {
+//         inquirer.prompt(formQs)
+//         .then((inquirerResponses) => {
+//             console.log("Making Your ReadMe...");
+//             writeToFile("ReadMe.md", createMarkdown({...inquirerResponses}));
+//         })
+//     }
+
+    // init();

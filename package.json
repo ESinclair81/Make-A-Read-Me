@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ESinclair81/Make-A-Read-Me#readme",
   "dependencies": {
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "markdown-it": "^12.0.4"
   }
 }
