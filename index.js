@@ -55,7 +55,7 @@ const createMarkdown= require("./utils/createMarkdown");
     {
         type: "input",
         name: "usage",
-        message: "Is thare any important info the user should know about executing this repo?",
+        message: "Is there any important info the user should know about executing this repo?",
         
     },
     {

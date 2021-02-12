@@ -1,9 +1,9 @@
-# undefined
-![Github license](https://img.shields.io/badge/license-MIT,APACHE 2.0,GPL 3.0,BSD 3-blue.svg)
+# Make-A-Read-Me
+![Github license](https://img.shields.io/badge/license-None-blue.svg)
 
 ## Description
 
-Great ideas constantly being pumped and up and played out 
+This is a simple ReadMe.md generating tool allowing ReadME creation from the command line
 
 ## Table of Contents
 
@@ -29,14 +29,14 @@ node index.js
 ```
 
 ## Usage
-
+This repo is for demonstration purposes.  
 
 ## License
-    This project is licensed under the MIT,APACHE 2.0,GPL 3.0,BSD 3 license.
+    This project is licensed under the None license.
 
 ## Contributing
 
-
+This repo is for demonstration purposes and as such, will not be accepting contirubutions at this time.  
 
 ## Tests
 
@@ -48,5 +48,5 @@ npm test
 
 ## Questions
 
-Any Q's about this repo? Feel free to contact me at ro@joe, or go ahead and open an issue for me. To see more ESinclair81 works, check [$[data.github]](http://)
+Any Q's about this repo? Feel free to contact me at eongyasi@gmail.com, or go ahead and open an issue for me. To see more ESinclair81 works, check [$[data.github]](http://)
 
