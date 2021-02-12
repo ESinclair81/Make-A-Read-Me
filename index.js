@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
-// const createMarkdown= require("./utilities/createMarkdown");
+const createMarkdown= require("./utils/createMarkdown");
 
 
 /*______________________________________ THESE ARE THE INQUIRER PROMPTS FOR USER INPUT _________________________________________*/
