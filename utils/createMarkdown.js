@@ -81,3 +81,5 @@ Any Q's about this repo? Feel free to contact me at ${data.email}, or go ahead a
 
 `;
 }
+
+module.exports = createMarkdown;
