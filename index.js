@@ -67,8 +67,6 @@ const createMarkdown= require("./utils/createMarkdown");
 ];
 
 
-formQs().then(answers => console.log(answers));
-
 // ];
 
 /*_____________________________________________ THIS FUNCTION WRITES THE MARKDOWN FILE ______________________________________________*/

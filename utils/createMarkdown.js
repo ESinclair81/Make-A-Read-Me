@@ -27,8 +27,6 @@ function renderLicenseSection(license) {
     return ''
 }
 
-
-
 function createMarkdown(data) {
     return `# ${data.title}
 ${renderLicenseBadge(data.license)}
@@ -52,7 +50,7 @@ ${renderLicenseLink(data.license)}
 
 ## Installation
 
-To install necessasry dependencies, please run the following command:
+To install necessary dependencies, please run the following command:
 
 \`\`\`
 ${data.installation}
