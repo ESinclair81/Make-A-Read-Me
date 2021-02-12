@@ -25,10 +25,11 @@ function renderLicenseSection(license) {
         )
     }
     return ''
-}
+};
+
 
 function createMarkdown(data) {
-    return `# ${data.title}
+    return `# ${data.projectname}
 ${renderLicenseBadge(data.license)}
 
 ## Description

@@ -1,9 +1,9 @@
 # undefined
-![Github license](https://img.shields.io/badge/license--blue.svg)
+![Github license](https://img.shields.io/badge/license-MIT,APACHE 2.0,GPL 3.0,BSD 3-blue.svg)
 
 ## Description
 
-Just a test of a command line ReadMe generator using node
+Great ideas constantly being pumped and up and played out 
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ Just a test of a command line ReadMe generator using node
 
 ## Installation
 
-To install necessasry dependencies, please run the following command:
+To install necessary dependencies, please run the following command:
 
 ```
 node index.js
@@ -32,11 +32,11 @@ node index.js
 
 
 ## License
-    This project is licensed under the  license.
+    This project is licensed under the MIT,APACHE 2.0,GPL 3.0,BSD 3 license.
 
 ## Contributing
 
-Hopefully you like using it
+
 
 ## Tests
 
@@ -48,5 +48,5 @@ npm test
 
 ## Questions
 
-Any Q's about this repo? Feel free to contact me at eongyasi@gmail.com, or go ahead and open an issue for me. To see more ESinclair81 works, check [$[data.github]](http://)
+Any Q's about this repo? Feel free to contact me at ro@joe, or go ahead and open an issue for me. To see more ESinclair81 works, check [$[data.github]](http://)
 

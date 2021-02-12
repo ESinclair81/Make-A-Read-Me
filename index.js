@@ -55,7 +55,7 @@ const createMarkdown= require("./utils/createMarkdown");
     {
         type: "input",
         name: "usage",
-        message: "Is thare any important info the user should know about using this repo?",
+        message: "Is thare any important info the user should know about executing this repo?",
         
     },
     {
@@ -67,21 +67,17 @@ const createMarkdown= require("./utils/createMarkdown");
 ];
 
 
-// ];
-
 /*_____________________________________________ THIS FUNCTION WRITES THE MARKDOWN FILE ______________________________________________*/
     function writeToFile(fileName, data) {
         return fs.writeFileSync(path.join(process.cwd(), fileName),data);
     }
 
 
-
-
 //  /*________________________________ THIS FUNCTION LOGS THE USER INPUT AND CREATES THE README ____________________________________*/   
     function init() {
         inquirer.prompt(formQs)
         .then((inquirerResponses) => {
-            console.log("Making Your ReadMe...");
+            console.log("Thanks for Patiently Waiting While We Create Your ReadMe...");
             writeToFile("ReadMe.md", createMarkdown({...inquirerResponses}));
         })
     }
