@@ -32,9 +32,9 @@ const createMarkdown= require("./utils/createMarkdown");
 
     },
     {
-        type: "checkbox",
+        type: "list",
         name: "license",
-        message: "Please select what type of license you would like for this project from the choices below:",
+        message: "Please select what type of license you would like for this project from the choices below",
         choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
 
     },

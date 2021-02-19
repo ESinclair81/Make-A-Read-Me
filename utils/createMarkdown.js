@@ -29,6 +29,7 @@ function renderLicenseSection(license) {
 
 
 function createMarkdown(data) {
+    console.log(data);
     return `# ${data.projectname}
 ${renderLicenseBadge(data.license)}
 
@@ -76,7 +77,7 @@ ${data.test}
 
 ## Questions
 
-Any Q's about this repo? Feel free to contact me at ${data.email}, or go ahead and open an issue for me. To see more ESinclair81 works, check [$[data.github]](http://)
+Any Q's about this repo? Feel free to contact me at ${data.email}, or go ahead and open an issue for me. To see more ESinclair81 works, check ${data.github}(http://)
 
 `;
 }
